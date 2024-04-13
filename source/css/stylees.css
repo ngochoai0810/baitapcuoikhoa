@@ -83,7 +83,7 @@ body {
 .todo-list,
 .doing-list,
 .done-list {
-  max-height:500px;
+  max-height:1000px;
   overflow-y: scroll;
 }
 #todo .title-todo {
@@ -206,12 +206,12 @@ body {
 .add-category,
 .add-title,
 .add-description {
-  padding: 7px 15px;
+  padding: 10px 50px;
   border: #5a5c63;
 }
 .button-add {
   cursor: pointer;
-  padding: 10px 60px;
+  padding: 10px 110px;
   border: #5a5c63;
   border-radius: 5px;
 }
@@ -256,3 +256,7 @@ body {
 .fixed {
   border: 1px solid black;
 }
+.list-container {
+	background-color: rgb(204, 197, 197);
+	min-height: 500px;
+} 
