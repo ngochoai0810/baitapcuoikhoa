@@ -1,6 +1,6 @@
-async function editApi(id, Activities) {
+export default async function editApi(id, Activities) {
   const response = await fetch(
-    `https://66195b06125e9bb9f299c7ee.mockapi.io/api/Activities${id}`,
+    `https://66195b06125e9bb9f299c7ee.mockapi.io/api/Activities/${id}`,
     {
       method: "PUT",
       headers: {
@@ -16,4 +16,4 @@ async function editApi(id, Activities) {
   return await response.json();
 }
 
-editApi();
+

@@ -8,7 +8,7 @@ export default async function deleteApi(id) {
       },
     }
   );
-
+  console.log(id);
   if (response.ok) {
     return await response.json();
   }

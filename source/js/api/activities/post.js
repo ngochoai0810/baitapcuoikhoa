@@ -1,4 +1,4 @@
-import { Render } from "../../main.js";
+import Render from "../../Render.js";
 export default async function postActivity(data) {
   const respone = await fetch(
     "https://66195b06125e9bb9f299c7ee.mockapi.io/api/Activities",
